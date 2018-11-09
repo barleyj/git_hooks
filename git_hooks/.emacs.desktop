@@ -1,0 +1,55 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Fri Apr 27 16:17:33 2018
+;; Desktop file format version 208
+;; Emacs version 25.2.1
+
+;; Global section:
+(setq desktop-saved-frameset nil)
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring '("setup"))
+(setq register-alist nil)
+(setq file-name-history '("/Users/jayson.barley/development/git_hooks/git_hooks/hooks/prepare_commit_message.py" "/Users/jayson.barley/development/git_hooks/setup.cfg" "/Users/jayson.barley/development/git_hooks/setup.py" "/Users/jayson.barley/development/git_hooks/git_hooks/git_hooks.py"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/Users/jayson.barley/development/git_hooks/git_hooks/git_hooks.py"
+  "git_hooks.py"
+  'python-mode
+  '(flycheck-mode git-gutter-mode outline-minor-mode workgroups-mode yas-minor-mode)
+  242
+  '(11 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (11))))
+
+(desktop-create-buffer 208
+  "/Users/jayson.barley/development/git_hooks/git_hooks/hooks/prepare_commit_message.py"
+  "prepare_commit_message.py"
+  'python-mode
+  '(flycheck-mode git-gutter-mode auto-revert-mode outline-minor-mode workgroups-mode yas-minor-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/jayson.barley/development/git_hooks/setup.py"
+  "setup.py"
+  'python-mode
+  '(flycheck-mode git-gutter-mode outline-minor-mode workgroups-mode yas-minor-mode)
+  1325
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
